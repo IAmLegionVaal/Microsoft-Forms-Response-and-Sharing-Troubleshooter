@@ -148,4 +148,8 @@ It does **not** automatically change tenant-side form ownership, response permis
 - The tool does not delete Forms responses or modify Forms ownership and sharing settings.
 - The first run against a new Edge profile should use `-WhatIf`.
 
-The workflow has been source-reviewed for Windows PowerShell 5.1 but has not been runtime-tested against every Edge or Microsoft 365 tenant configuration.
+## Validation status
+
+Tested successfully by the author on his own Windows machines with Microsoft Edge and Microsoft Forms. The documented browser, session, cache and connectivity repairs worked as intended on those systems.
+
+Results may vary with the Windows and Edge version, selected browser profile, Microsoft 365 tenant policy, Forms ownership and sharing configuration, permissions, account state and network environment. Use `-WhatIf` when introducing the toolkit to a new profile, tenant or machine.
